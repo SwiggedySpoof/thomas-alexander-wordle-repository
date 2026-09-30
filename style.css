@@ -1,0 +1,103 @@
+﻿h1 {
+    text-align: center;
+}
+
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Courier New";
+}
+
+#game-dashboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Courier New";
+}
+
+#theme-select {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.filled-box {
+    border: 2px solid black;
+}
+.letter-row {
+    display: flex;
+}
+
+#keyboard-cont {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#keyboard-cont div {
+    display: flex;
+}
+.second-row {
+    margin: 0.5rem 0;
+}
+.keyboard-button {
+    font-family: "Courier New";
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+body {
+    transition: background 0.5s ease, color 0.5s ease;
+    background-image: url('src/daria-kraplak-d34DtRp1bqo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #121213;
+    color: white;
+}
+
+body.theme-classic {
+    background-image: url('src/daria-kraplak-d34DtRp1bqo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #121213;
+}
+
+body.theme-geography {
+    background-image: url('src/kyle-glenn-nXt5HtLmlgE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #1e293b;
+}
+
+body.theme-cinema {
+    background-image: url('src/jake-hills-23LET4Hxj_U-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #2d0b0b;
+}
